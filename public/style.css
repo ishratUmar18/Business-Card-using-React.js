@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 550px;
+    height: 868px;
+    left: 664px;
+    background: #23252C;
+}
+.about-image{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    background: url(./profile.png);
+    border-radius: 10px 10px 0px 0px;
+}
+.wrapper{
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
+}
+.wrapper > h2{
+    height: 5.81px;
+    left: 186px;
+    top: 382px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.wrapper > p{
+    height: 0.19px;
+    left: 186px;
+    top: 414px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 5px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+.wrapper > .website{
+margin-left: 106px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+/* identical to box height, or 15px */
+color: #F5F5F5;
+    }
+    .wrapper .btn-style {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
+.btn-style > .btn-left{
+    box-sizing: border-box;
+
+/* Auto layout */
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    }
+    
+    .btn-style > .btn-right{
+    box-sizing: border-box;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+
+    background: #5093E2;
+    /* shadow/sm */
+    border: 1px solid #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    }
+    .info > h3{
+        /* About */
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+    }
+    .info > p{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+  
+    }
+    .interests > h3{
+        /* Interests */
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 649px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+    }
+    .interests > p{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 675px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+    }
+footer{
+    /* Social Icons Background */
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+footer > img{
+    text-align: right;
+}
+footer > .icon-style{
+    margin: 18px 0px 25px 0px;
+    bottom: 7.37%;
+}
