@@ -12,7 +12,7 @@ export default function About() {
          className="website">github.com/ishratUmar18</a><br></br>
          <div className="btn-style">
          <button type="button" className="btn-left">Twitter</button>
-         <button type="button" className="btn-right">Twitter</button>
+         <button type="button" className="btn-right">LinkedIn</button>
          </div>
 
         </div>
